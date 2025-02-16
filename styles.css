@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #F4D04E;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 24rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.blog {
+    display: flex;
+    border-radius: 0.8rem;
+    overflow: hidden; /* Применяется для предотвращения выхода контента за границы */
+}
+
+.text {
+    width: 100%; /* Применяется для предотвращения выхода контента за границы */
+    padding-top: 1rem;
+    font-family: 'Figtree', sans-serif;  /* Применение шрифта Figtree */
+    font-weight: 500; /* Использование среднего веса шрифта */
+}
+
+.h1 {
+    font-family: 'Figtree', sans-serif; /* Используем шрифт Figtree */
+    font-weight: 900; /* Используем самый жирный стиль */
+    font-size: 1.3rem; /* Размер шрифта */
+    color: #F4D04E; /* Цвет текста */
+    margin-top: 0.5rem; /* Отступ сверху */
+    margin-bottom: 0.5rem; /* Отступ снизу */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+.h2 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 0.7rem;
+    margin-top: 0.5rem; /* Отступ сверху */
+}
+
+.square {
+    display: inline-block;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    background-color: #F4D04E;
+}
+
+.h3 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 900;
+    font-size: 0.65rem;
+    color: #000000;
+}
+
+.h4 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 300;
+    font-size: 0.85rem;
+    color: #6B6B6B;
+    margin-bottom: 1rem;
+}
+
+.author {
+    display: flex; /* Используем flexbox для выравнивания элементов */
+    align-items: center; /* Центрируем элементы по вертикали */
+}
+.face {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.7rem;
+}
+.text_face {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: #000000;
+}
