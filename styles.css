@@ -24,6 +24,7 @@ body {
     background-color: white;
     padding: 1rem;
     border-radius: 0.8rem;
+    box-shadow: 0.7rem 0.7rem 0rem black;
 }
 
 .blog {
